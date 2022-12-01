@@ -9,8 +9,7 @@ body {
 }
 
 .header {
-  height: 100vh;
-
+  padding-bottom: 180px;
   background-image: url("../images/headerBG.png");
   background-color: #ee3d1bcc;
   background-blend-mode: multiply;
@@ -114,4 +113,66 @@ body {
 
 .header-text {
   text-align: center;
+}
+
+/* main */
+
+.main {
+}
+.cloud {
+  padding: 95px 0;
+}
+.cloud .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cloud-text {
+  width: 45%;
+}
+.cloud-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+}
+.cloud-desc {
+  margin: 24px 0 12px;
+  text-align: justify;
+
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.cloud-pic {
+  position: relative;
+}
+
+.cloud-play {
+  background: #ED4C5C;
+  width: 66px;
+  height: 66px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s linear;
+
+  position: absolute;
+  top: calc((100% - 66px) / 2);
+  right: calc(100% - 33px);
+}
+
+.cloud-play:hover {
+  background: #e32336;
+}
+
+.cloud-text .link {
+  font-size: 14px;
+line-height: 140%;
+text-decoration: none;
+color: #ED4C5C;
+}
+.link:hover {
+  text-decoration: underline;
 }
