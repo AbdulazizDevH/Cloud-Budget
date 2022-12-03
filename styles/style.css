@@ -148,7 +148,7 @@ body {
 }
 
 .cloud-play {
-  background: #ED4C5C;
+  background: #ed4c5c;
   width: 66px;
   height: 66px;
   border-radius: 100%;
@@ -169,10 +169,72 @@ body {
 
 .cloud-text .link {
   font-size: 14px;
-line-height: 140%;
-text-decoration: none;
-color: #ED4C5C;
+  line-height: 140%;
+  text-decoration: none;
+  color: #ed4c5c;
 }
 .link:hover {
   text-decoration: underline;
 }
+
+/* FEATURES */
+
+.features {
+  /* background: gray; */
+  padding: 63px 0 223px;
+}
+.features-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+}
+.cards {
+  margin-top: 63px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.cards .card {
+  position: relative;
+  width: 350px;
+}
+.card .card-text {
+  position: absolute;
+  bottom: -35%;
+  right: 29px;
+  left: 29px;
+  padding: 33px 32px 25px 32px;
+
+  background: #ffffff;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+.card-text h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+.card-text p {
+  margin: 20px 0 5px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+}
+
+.card-text a {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  transition: 0.3s;
+  text-decoration: none;
+  color: #ED4C5C;
+}
+.card-text a:hover {
+  text-decoration: underline;
+}
+
+
+/* Technology */
+
