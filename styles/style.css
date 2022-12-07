@@ -229,12 +229,59 @@ body {
   line-height: 150%;
   transition: 0.3s;
   text-decoration: none;
-  color: #ED4C5C;
+  color: #ed4c5c;
 }
 .card-text a:hover {
   text-decoration: underline;
 }
 
-
 /* Technology */
+.technology {
+  padding: 63px 0 165px;
+  background-color: #fff;
+}
+.technology-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
 
+  color: #000000;
+}
+.technology-cards {
+  margin-top: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.t-card {
+  width: 255px;
+  height: 226px;
+  text-align: center;
+  position: relative;
+  padding: 10px 30px;
+}
+.t-card img {
+  position: absolute;
+  top: 30%;
+  right: 33%;
+}
+.t-card h1 {
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 120px;
+  color: rgba(16, 16, 16, 0.08);
+}
+.t-card h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 19px 0 10px;
+  color: #101010;
+}
+.t-card p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
