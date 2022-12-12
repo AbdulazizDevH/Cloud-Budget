@@ -285,3 +285,31 @@ body {
   line-height: 14px;
   color: #000000;
 }
+
+/* Money */
+.money {
+  background: #ed4c5c;
+  padding: 95px 0;
+}
+.money .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.money-text {
+  width: 40%;
+}
+.money-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #ffffff;
+}
+.money-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: justify;
+  margin: 24px 0 44px;
+  color: #ffffff;
+}
