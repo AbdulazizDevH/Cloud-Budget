@@ -313,3 +313,87 @@ body {
   margin: 24px 0 44px;
   color: #ffffff;
 }
+.money-socially {
+  display: flex;
+  align-items: center;
+}
+.money-socially a {
+  margin-right: 10px;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 85px 0;
+}
+.footer .container {
+}
+.footer-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.f-card {
+  width: 216px;
+}
+.f-card h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 33px;
+  color: #101010;
+}
+.f-card p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #101010;
+}
+
+.f-card nav {
+  display: flex;
+  flex-direction: column;
+}
+.f-card nav a {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000000;
+}
+.f-card:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+}
+.f-card .mail,
+.number {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration: none;
+  color: #121212;
+  margin-bottom: 11px;
+}
+.f-socially {
+  margin-top: 10px;
+}
+.f-socially a {
+  margin-right: 5px;
+  border: 1px solid gray;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.copyright {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 86px;
+  color: #101010;
+}
