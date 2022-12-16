@@ -321,6 +321,67 @@ body {
   margin-right: 10px;
 }
 
+/*Contact*/
+.contact {
+  padding: 117px 0;
+}
+.contact .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contact-text {
+  width: 40%;
+}
+.contact-inputs {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact-text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: justify;
+  color: #000000;
+  margin-top: 50px;
+}
+.contact-inputs input {
+  display: inline-block;
+  padding: 20px 30px;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  outline: none;
+}
+.contact-inputs input:first-child,
+input:nth-child(2) {
+  width: 48%;
+}
+.contact-inputs input:nth-child(3),
+input:nth-child(4) {
+  width: 100%;
+}
+.contact-inputs input:nth-child(3) {
+  margin: 24px 0;
+}
+.contact .container button {
+  margin-top: 27px;
+  border: 1.5px solid #ed4c5c;
+  border-radius: 6px;
+  border: none;
+  background-color: #e32336;
+  padding: 17px 34px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+.contact .container button:hover {
+  background-color: #d01a2c;
+}
 /* FOOTER */
 
 .footer {
